@@ -1,20 +1,232 @@
 body{
   background: #f6f6fa;
   padding: 40px 40px 40px 40px;
-  width: 1280px;
+  width: 1200px;
   height: 1399px;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 .wrapper{
   background: #ffffff;
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  width: 1200px;
+  margin-left: 600px;
 }
+
+/*Main content*/
 .main-content{
   padding-left: 88px;
   padding-top: 80px;
   padding-bottom: 80px;
   padding-right: 40px;
   box-sizing: border-box;
+}
+
+/* Sidebar */
+
+.sidebar{
+background: #e0ebfe;
+padding-top: 40px;
+padding-bottom: 40px;
+box-sizing: border-box;
+width: 370px;
+}
+
+.sidebar-content{
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.contacts-title{
+color: #161D2A;
+font-size: 22px;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.contacys-type{
+font-weight: 700;
+font-size: 14px;
+line-height: 171%;
+color: #161d2a;
+margin-right: 8px;
+}
+.contacts-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration: underline;
+color: #2979ff;
+}
+.contacts-item{
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.contacts-container{
+  margin-bottom: 40px;
+}
+
+.skills-container{
+  margin-bottom: 40px;
+}
+
+.skills-title{
+font-weight: 700;
+font-size: 22px;
+color: #161d2a;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.skills-list{
+  padding-left: 16px;
+}
+.skills-list-item{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+.my-profession{
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.my-name{
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+margin-top: 0;
+margin-bottom: 12px;
+color: #000;
+}
+.my-descr{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+.my-info{
+  margin-bottom: 40px;
+}
+.my-project-title{
+font-weight: 700;
+font-size: 22px; 
+line-height: 27px;
+margin-top: 0;
+margin-bottom: 8px;
+color: #000;
+}
+
+.my-project-item{
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000;
+}
+
+.my-project-list{
+  padding-left: 16px;
+}
+.my-project-item-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration: underline;
+color: #005fff;
+}
+
+.my-project-item-tech{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+.my-project-container{
+  margin-bottom: 40px;
+}
+
+.work-experience-title{
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+color: #000;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.work-experience-company{
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #000;
+margin-top: 0;
+margin-bottom: 12px;
+}
+.company-name{
+  color: #6d9bf5;
+}
+
+.work-experience-period{
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #a8a8a8;
+margin-bottom: 8px;
+}
+.work-experience-period-separator{
+  color: #000;
+}
+.work-experience-duties-list{
+  padding-left: 16px;
+  margin-left: 12px;
+}
+.work-experience-duties-item{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.work-experience-container{
+  margin-bottom: 12px;
+}
+.education-where{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6d9bf5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.about-profile{
+font-weight: 700;
+font-size: 14px;
+color: #000;
+margin-top: 12px;
+margin-bottom: 0;
+}
+.education-period{
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #a8a8a8;;
+margin-top: 12px;
+}
+.work-experience{
+  margin-bottom: 40px;
 }
